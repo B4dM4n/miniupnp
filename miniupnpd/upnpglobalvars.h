@@ -34,6 +34,8 @@ extern const char * lease_file6;
 #endif
 #endif
 
+extern unsigned long int max_lease_duration;
+
 /* forced ip address to use for this interface
  * when NULL, getifaddr() is used */
 extern const char * use_ext_ip_addr;

@@ -100,6 +100,7 @@ static const struct {
 	{ UPNPLEASEFILE6, "lease_file6"},
 #endif
 #endif
+	{ UPNPMAXLEASEDURATION, "max_lease_duration"},
 #ifdef IGD_V2
 	{ UPNPFORCEIGDDESCV1, "force_igd_desc_v1"},
 #endif

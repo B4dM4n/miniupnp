@@ -357,6 +357,10 @@ upnp_redirect(const char * rhost, unsigned short eport,
 		return -3;
 	}
 
+	if(max_lease_duration > 0 && leaseduration > max_lease_duration) {
+		leaseduration = max_lease_duration;
+	}
+
 	if (desc == NULL)
 		desc = "";	/* assume empty description */
 

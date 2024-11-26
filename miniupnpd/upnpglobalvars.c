@@ -33,6 +33,8 @@ const char* lease_file6 = 0;
 #endif
 #endif
 
+unsigned long int max_lease_duration = 0;
+
 /* forced ip address to use for this interface
  * when NULL, getifaddr() is used */
 const char * use_ext_ip_addr = 0;

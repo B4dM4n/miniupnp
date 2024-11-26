@@ -79,6 +79,7 @@ enum upnpconfigoptions {
 	UPNPLEASEFILE6,			/* lease_file v6 */
 #endif
 #endif
+	UPNPMAXLEASEDURATION,		/* max_lease_duration */
 	UPNPMINISSDPDSOCKET,	/* minissdpdsocket */
 #ifdef IGD_V2
 	UPNPFORCEIGDDESCV1,

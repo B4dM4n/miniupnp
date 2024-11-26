@@ -1462,6 +1462,9 @@ init(int argc, char * * argv, struct runtime_vars * v)
 				break;
 #endif	/* ENABLE_UPNPPINHOLE */
 #endif	/* ENABLE_LEASEFILE */
+			case UPNPMAXLEASEDURATION:
+				max_lease_duration = atoi(ary_options[i].value);
+				break;
 			case UPNPMINISSDPDSOCKET:
 				minissdpdsocketpath = ary_options[i].value;
 				break;
